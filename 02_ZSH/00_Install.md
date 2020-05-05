@@ -5,7 +5,7 @@ Es un interprete de comandos para sistemas operativos de tipo Unix.
 ## 1. Instalación de ZSH y git
 
 ```bash
-sudo apt isntall zsh git
+sudo apt install zsh git
 ```
 
 # Antigen
@@ -50,6 +50,12 @@ antigen apply
 ```
 
 > El tercer bloque de líneas, son los plugins que se desean añadir.
+
+### 3. Cambiar shell
+
+```bash
+chsh -s `which zsh`
+```
 
 # Oh My ZSH
 
@@ -128,3 +134,4 @@ Con base al historial, sugiere comandos a medida que se escribe. Para su instala
 # Temas
 
 ## 1. [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
+
